@@ -1,0 +1,35 @@
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .product-list div {
+    flex-basis: calc(33.333% - 20px);
+    background-color:  darkcyan;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-list h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: whitesmoke;
+  }
+  
+  .product-list p {
+    margin: 0 0 10px;
+    font-weight: bold;
+  }
+  
+  .product-list p:last-child {
+    margin-bottom: 0;
+    font-weight: bold;
+    color: whitesmoke;
+  }
+  
